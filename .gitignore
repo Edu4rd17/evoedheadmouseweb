@@ -1,0 +1,4 @@
+headmouse-backend\venv
+headmouse-backend\.env
+
+headmouse-frontend\node_modules
