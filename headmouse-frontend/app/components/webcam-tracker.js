@@ -1,15 +1,15 @@
-import Component from '@ember/component'; // Use classic component for lifecycle hook
+import Component from '@ember/component';
 import { action } from '@ember/object';
 
 export default class WebcamTrackerComponent extends Component {
-    @action
-    didInsertElement() {
-        super.didInsertElement(...arguments);
-        let img = document.getElementById('face-mesh-feed');
-        if (img) {
-            img.src = 'http://localhost:5000/video_feed';
-        }
-    }
+    // @action
+    // didInsertElement() {
+    //     super.didInsertElement(...arguments);
+    //     let img = document.getElementById('face-mesh-feed');
+    //     if (img) {
+    //         img.src = 'http://localhost:5000/video_feed';
+    //     }
+    // }
     // @action
     // didInsertElement() {
     //     const video = document.getElementById('webcam');
