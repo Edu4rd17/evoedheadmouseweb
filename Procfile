@@ -1,0 +1,1 @@
+web: gunicorn headmouse-backend.app:app
