@@ -1,1 +1,24 @@
-/* Ember supports plain CSS out of the box. More info: https://cli.emberjs.com/release/advanced-use/stylesheets/ */
+.navbar {
+    background-color: #1f2937;
+    padding: 1rem;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+.nav-list a {
+    color: white;
+    text-decoration: none;
+}
+
+.camera-view-holder {
+    position: absolute;
+    bottom: 20px;
+}
+
+.camera-view-holder>img {
+    border-radius: 20px;
+}
