@@ -7,7 +7,7 @@ export default class WebcamTrackerComponent extends Component {
         super.didInsertElement(...arguments);
         let img = document.getElementById('face-mesh-feed');
         if (img) {
-            img.src = 'https://evoedheadmouseweb-2111207bc088.herokuapp.com/video_feed';
+            img.src = 'http://localhost:5000/video_feed';
         }
     }
     // @action
